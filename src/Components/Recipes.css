@@ -12,6 +12,8 @@
     text-align: center;
     color: #2C2891;
     font-size: small;
+    display: flex;
+    justify-content: center;
 }
 @media(max-width:768px){
     .recipe_list{
@@ -29,5 +31,8 @@
     .recipe_img{
        width: 300px;
        height: 200px;
+    }
+    .recipe_label{
+        max-width: 300px;
     }
 }
