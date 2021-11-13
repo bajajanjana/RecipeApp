@@ -5,6 +5,8 @@
 } 
 .recipe_img{
     border-radius: 5px;
+    background-repeat: no-repeat ;
+    background-size: cover;
 }
 
 .recipe_label{
