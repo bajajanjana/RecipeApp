@@ -35,7 +35,7 @@ function Layout() {
         visible={(isLoading)? 'true' :'false'}
         className="loader"
         />
-        {(RecipeList.length===0 && !isLoading) && <div><h5>Select Your options and Get your Recipes here</h5></div>}
+        {(RecipeList.length===0 && !isLoading) && <div><h5>Select Your filters and Get your Recipes here</h5></div>}
         <Recipes Recipes={RecipeList} />
         </div>
       </div>
