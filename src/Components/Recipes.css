@@ -1,0 +1,29 @@
+.recipe_list{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 1rem;
+} 
+.recipe_img{
+    border-radius: 5px;
+}
+
+.recipe_label{
+    max-width: 180px;
+    text-align: center;
+    color: #2C2891;
+    font-size: small;
+}
+@media(max-width:768px){
+    .recipe_list{
+        display: grid;
+        grid-template-columns: auto auto ;
+        grid-gap: 1rem;
+    } 
+}
+@media(max-width:500px){
+    .recipe_list{
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 1rem;
+    } 
+}
